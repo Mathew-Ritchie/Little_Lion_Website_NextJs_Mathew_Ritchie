@@ -3,17 +3,6 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden flex flex-col md:flex-row-reverse md:gap-5 items-center justify-center bg-gray-800">
-
-      {/* Background logo */}
-      {/* <div
-        className="absolute inset-0 bg-no-repeat"
-        style={{
-          backgroundImage: "url('/images/little-lion-logo.png')",
-          backgroundPosition: "bottom left",
-          backgroundSize: "90%",
-        }}
-      /> */}
-
       {/* Content */}
       <div className="container text-center md:text-left text-white md:w-90">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-2">
@@ -30,11 +19,10 @@ export default function Hero() {
       </div>
       <Image
         src="/images/little-lion-logo.png"
-        alt="Little Lion Logo"
+        alt="Little Lion Logo of a Shih Tzu Dog"
         className="w-2/3 md:w-1/3 lg:w-1/2 h-auto"
         width={1536}
-        height={1024}
-       
+        height={1024} 
       />
     </section>
   );

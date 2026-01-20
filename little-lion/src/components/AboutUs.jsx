@@ -12,13 +12,13 @@ export default function About() {
         className="absolute inset-0 bg-no-repeat -z-10"
         style={{
           backgroundImage: `url("/images/web-pic.png")`,
-          backgroundPosition: "bottom left",
+          backgroundPosition: "center left",
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed",
-          backgroundSize: "50%",
+          backgroundSize: "80%",
         }}
       ></div>
-      <div className=" w-full md:w-1/2 container px-10 text-center md:text-start text-black">
+      <div className=" w-full md:w-1/2 container px-10 text-center md:text-start  bg-black/40 h-screen flex flex-col justify-center text-white">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">About Us</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           Little Lion is a web design and development company dedicated to creating stunning,
