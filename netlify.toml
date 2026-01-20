@@ -1,0 +1,7 @@
+[build]
+  base = "little-lion"          # the subfolder
+  publish = "little-lion/out"   # default output folder for static export
+  command = "npm run build"     # the build command
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
