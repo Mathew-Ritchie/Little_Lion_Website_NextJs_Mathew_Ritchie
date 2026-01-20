@@ -1,29 +1,41 @@
-import React from "react";
-//import webPic from "../assets/little-lion-logo.png";
-import "../app/globals.css"; // You'll need to create this CSS file
+import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="hero-section h-screen w-full relative overflow-hidden flex items-center justify-center md:justify-end">
-      <div
-        className="absolute inset-0 bg-no-repeat -z-10 bg-position-[bottom_left_4rem]"
+    <section className="relative h-screen w-full overflow-hidden flex flex-col md:flex-row-reverse md:gap-5 items-center justify-center bg-gray-800">
+
+      {/* Background logo */}
+      {/* <div
+        className="absolute inset-0 bg-no-repeat"
         style={{
-          backgroundImage: `url('/images/little-lion-logo.png')`,
-          // backgroundPosition: "bottom left",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "40%",
-          backgroundAttachment: "fixed",
+          backgroundImage: "url('/images/little-lion-logo.png')",
+          backgroundPosition: "bottom left",
+          backgroundSize: "90%",
         }}
-      ></div>
-      <div className="container pr-5 text-center md:text-left text-white w-full md:w-1/2">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 ">Little Lion</h1>
-        <h2 className="global-accent-text text-center md:text-start md:pr-25 text-4xl md:text-3xl font-extrabold mb-6">
+      /> */}
+
+      {/* Content */}
+      <div className="container text-center md:text-left text-white md:w-90">
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-2">
+          Little Lion
+        </h1>
+
+        <h2 className="global-accent-text text-center md:text-left md:pr-25 text-3xl md:text-3xl font-extrabold mb-6">
           Web Designs
         </h2>
-        <p className="text-xl md:text-2xl mb-8 max-w-2xl">
-          Even Small businesses can make a big impression
+
+        <p className="text-xl md:text-2xl mb-8 lg:w-80">
+          Even small businesses can make a big impression
         </p>
       </div>
+      <Image
+        src="/images/little-lion-logo.png"
+        alt="Little Lion Logo"
+        className="w-2/3 md:w-1/3 lg:w-1/2 h-auto"
+        width={1536}
+        height={1024}
+       
+      />
     </section>
   );
 }
