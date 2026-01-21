@@ -3,6 +3,7 @@ import About from "@/components/AboutUs";
 import OurServices from "@/components/OurServices";
 import TheProcess from "@/components/TheProcess";
 import Clients from "@/components/Clients";
+import "@/app/globals.css";
 
 export default function HomePage() {
   return (
