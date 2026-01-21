@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // swcMinify is already default, no need to specify
+  output: 'export', // static export
+  images: {
+    unoptimized: true, // <-- disable Next.js image optimization
+  },
 };
 
 module.exports = nextConfig;
