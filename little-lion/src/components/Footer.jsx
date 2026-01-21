@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 import "../app/globals.css"; // You'll need to create this CSS file
 //import speechBubble from "../assets/speech-bubble.png";
 
@@ -71,9 +72,14 @@ export default function Footer() {
       </div>
       <div className="flex flex-col justify-center items-center gap-5 pt-5 global-accent-text z-10">
         <p className="text-xl">Why not follow us?</p>
+        <div className="flex justify-center items-center gap-2">
         <a href="https://www.linkedin.com/in/mathew-ritchie-802a9114b/" target="_blank">
           <FaLinkedin className="text-3xl" />
         </a>
+        <a href="https://www.instagram.com/little_lion_webdesign/" target="_blank">
+          <FaInstagramSquare className="text-3xl" />
+        </a>
+        </div>
       </div>
     </div>
   );

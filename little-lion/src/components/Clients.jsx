@@ -15,7 +15,9 @@ export default function Clients() {
           of the work we have done for them. We can also devout more time to them and their dreams.
         </p>
         <div className="flex justify-center items-center mt-8">
-          <Image className="client-logos" src="/images/maichatron-logo.png" alt="Maichatron Logo" width={417} height={96} />
+          <a href="https://www.maichatron.co.za" target="_blank" rel="noopener noreferrer">
+            <Image className="client-logos" src="/images/maichatron-logo.png" alt="Maichatron Logo" width={417} height={96} />
+          </a>
         </div>
       </div>
     </section>
