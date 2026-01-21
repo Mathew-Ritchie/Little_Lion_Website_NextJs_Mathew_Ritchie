@@ -7,7 +7,7 @@ const config = {
     tailwindcss: {},
     autoprefixer: {},
     'postcss-preset-env': {
-      stage: 3, // includes polyfills for modern CSS features
+      stage: 3, // include polyfills for modern CSS
       features: {
         'nesting-rules': true, // optional: allow CSS nesting
       },
