@@ -17,7 +17,7 @@ export default function Hero() {
           Even small businesses can make a big impression
         </p>
       </div>
-      <div className="flex flex-col items-center gap-5"> 
+      <div className="flex flex-col items-center gap-2"> 
         <Image
         src="/images/little-lion-logo.png"
         alt="Little Lion Logo of a Shih Tzu Dog"
@@ -25,7 +25,7 @@ export default function Hero() {
         width={1536}
         height={1024} 
       />
-      <p className="text-white/50 text-2xl italic">&quot;Shih Tzu&quot; - &quot;Little Lion&quot;</p>
+      <p className="text-white/50 text-xl italic">&quot;Shih Tzu&quot; - &quot;Little Lion&quot;</p>
       
       </div>
      
