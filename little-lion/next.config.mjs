@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactCompiler: true,
-  assetPrefix: '/', // Ensures CSS/JS assets load relative to your domain over HTTPS
+  reactStrictMode: true,
+  swcMinify: true,
+  assetPrefix: '/',
 };
 
 export default nextConfig;
