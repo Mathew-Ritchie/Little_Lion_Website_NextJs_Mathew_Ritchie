@@ -14,7 +14,7 @@ export default function Samples() {
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8">
           {/* Sample 1 */}
-          <a href="https://sample-restaurant-site.netlify.app/" className="sm:w-2/3 md:w-1/2 lg:w-2/5 h-100">
+          <a href="https://sample-restaurant-site.netlify.app/" target="_blank" className="sm:w-2/3 md:w-1/2 lg:w-2/5 h-100">
           <div className="bg-gray-800 p-4 rounded-lg shadow-lg h-100">
             <Image
               src="/images/restaurant.png"
@@ -30,7 +30,7 @@ export default function Samples() {
           </div>
           </a>
           {/* Sample 2 */}
-           <a href="https://sample-hotel-website-mathew-ritchie.netlify.app/" className="sm:w-2/3 md:w-1/2 lg:w-2/5 h-100">
+           <a href="https://sample-hotel-website-mathew-ritchie.netlify.app/" target="_blank" className="sm:w-2/3 md:w-1/2 lg:w-2/5 h-100">
           <div className="bg-gray-800 p-4 rounded-lg shadow-lg  h-100">
             <Image
               src="/images/hotel.png"

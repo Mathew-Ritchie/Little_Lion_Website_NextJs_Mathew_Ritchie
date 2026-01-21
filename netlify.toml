@@ -3,5 +3,5 @@
   publish = ".next"              # the plugin will handle this
   command = "npm run build"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+#[[plugins]]
+# package = "@netlify/plugin-nextjs"
