@@ -1,6 +1,4 @@
 
-import "core-js/stable";
-import "regenerator-runtime/runtime";
 import "@/app/globals.css";
 import NavModalHeader from "@/components/NavBar";
 import Footer from "@/components/Footer";
