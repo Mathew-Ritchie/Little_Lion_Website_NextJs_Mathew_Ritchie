@@ -1,16 +1,14 @@
 import autoprefixer from 'autoprefixer';
-import tailwindcss from 'tailwindcss';
 import postcssPresetEnv from 'postcss-preset-env';
+import tailwindcss from '@tailwindcss/postcss';
 
 const config = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
     'postcss-preset-env': {
-      stage: 3, // include polyfills for modern CSS
-      features: {
-        'nesting-rules': true, // optional: allow CSS nesting
-      },
+      stage: 3,
+      features: { 'nesting-rules': true },
     },
   },
 };
