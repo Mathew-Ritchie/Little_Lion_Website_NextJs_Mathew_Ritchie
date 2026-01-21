@@ -9,13 +9,9 @@ export default function About() {
       className="about-section min-h-screen w-full relative overflow-hidden flex items-center justify-center md:justify-end"
     >
       <div
-        className="absolute inset-0 bg-no-repeat -z-10"
+        className="absolute inset-0 bg-no-repeat -z-10 bg-size-[100%] lg:bg-size-[60%] bg-fixed bg-left md:bg-left"
         style={{
           backgroundImage: `url("/images/web-pic.png")`,
-          backgroundPosition: "center left",
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
-          backgroundSize: "80%",
         }}
       ></div>
       <div className=" w-full md:w-1/2 container px-10 text-center md:text-start  bg-black/40 h-screen flex flex-col justify-center text-white">

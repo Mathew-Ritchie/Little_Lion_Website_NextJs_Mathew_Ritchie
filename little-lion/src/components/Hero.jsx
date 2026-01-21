@@ -17,13 +17,18 @@ export default function Hero() {
           Even small businesses can make a big impression
         </p>
       </div>
-      <Image
+      <div className="flex flex-col items-center gap-5"> 
+        <Image
         src="/images/little-lion-logo.png"
         alt="Little Lion Logo of a Shih Tzu Dog"
-        className="w-2/3 md:w-1/3 lg:w-1/2 h-auto"
+        className="w-5/6 md:w-1/3 lg:w-120 h-auto"
         width={1536}
         height={1024} 
       />
+      <p className="text-white/50 text-2xl italic">&quot;Shih Tzu&quot; - &quot;Little Lion&quot;</p>
+      
+      </div>
+     
     </section>
   );
 }
