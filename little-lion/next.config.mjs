@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   reactCompiler: true,
+  assetPrefix: '/', // Ensures CSS/JS assets load relative to your domain over HTTPS
 };
 
 export default nextConfig;
