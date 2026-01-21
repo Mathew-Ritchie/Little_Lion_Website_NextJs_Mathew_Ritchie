@@ -4,7 +4,7 @@ import OurServices from "@/components/OurServices";
 import TheProcess from "@/components/TheProcess";
 import Clients from "@/components/Clients";
 import "@/app/globals.css";
-import Samples from "@/components/Samples";
+//import Samples from "@/components/Samples";
 
 export default function HomePage() {
   return (
@@ -13,7 +13,7 @@ export default function HomePage() {
       <About />
       <OurServices />
       <TheProcess />
-      <Samples />
+      {/* <Samples /> */}
       <Clients />
     </main>
   );
