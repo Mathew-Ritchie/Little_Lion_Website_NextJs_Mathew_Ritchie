@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export', // static export
-  images: {
-    unoptimized: true, // <-- disable Next.js image optimization
-  },
+  output: 'export',       // enable static export
+  images: { unoptimized: true },  // needed if you use <Image>
 };
 
 module.exports = nextConfig;
