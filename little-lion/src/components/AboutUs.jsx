@@ -17,16 +17,16 @@ export default function About() {
       <div className=" w-full md:w-1/2 container px-10 text-center md:text-start  bg-black/40 h-screen flex flex-col justify-center text-white">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">About Us</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-          Little Lion is a web design and development company dedicated to creating stunning,
+          Little Lion is dedicated to great web design and development, creating stunning,
           user-friendly websites that help businesses establish a strong online presence.
         </p>
         <p className="text-md md:text-xl mb-8 max-w-2xl mx-auto">
-          Our aim is to provide high-quality, customized web solutions that not only look great but
-          also perform seamlessly across all devices. We believe that a well-designed website is
+          Our aim is to provide high-quality, customized web solutions that not only look great but are
+          also fully responsive, performing seamlessly across all devices. We believe that a well-designed website is
           crucial for any business looking to thrive in today&apos;s digital landscape.
         </p>
         <p className="text-md md:text-xl mb-8 max-w-2xl mx-auto">
-          You are proud of your business, let us help you show it off to the world.
+          &quot;You are proud of your business, let us help you show it off to the world.&quot;
         </p>
       </div>
     </section>

@@ -14,7 +14,7 @@ export default function Hero() {
         </h2>
 
         <p className="text-xl md:text-2xl mb-8 lg:w-80">
-          Even small businesses can make a big impression
+          Every Business Can Make A Big Impression
         </p>
       </div>
       <div className="flex flex-col items-center gap-2"> 
