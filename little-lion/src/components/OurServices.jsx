@@ -25,9 +25,9 @@ export default function OurServices() {
         {/* Added margin-bottom to ensure content isn't hidden */}
         <div className="container mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-4 text-center justify-items-center">
           {/* Package 1 */}
-          <div className="bg-white/90 p-6 px-8 rounded-lg shadow-md">
-            <h3 className="text-lg font-bold">Website development</h3>
-            <p>
+          <div className="bg-white/90 p-6 px-5 rounded-lg shadow-md">
+            <h3 className="text-3xl font-bold">Website development</h3>
+            <p className="text-lg">
               Bring your business online with a professional, modern website tailored to your needs.
               We create sites that look great, perform smoothly, and help you connect with clients.
             </p>
@@ -60,8 +60,8 @@ export default function OurServices() {
           </div>
 
           <div className="bg-white/90 p-6 px-8  rounded-lg shadow-md ">
-            <h3 className="text-lg font-bold">Search Engine Optimisation (SEO)</h3>
-            <p>
+            <h3 className="text-3xl font-bold">Search Engine Optimisation (SEO)</h3>
+            <p className="text-lg">
               Get your business noticed online with SEO that drives traffic, generates leads, and
               grows your brand.
             </p>
@@ -93,8 +93,8 @@ export default function OurServices() {
             <p>Let us help your business reach the right audience with SEO that works.</p>
           </div>
           <div className="bg-white/90 p-6 px-8  rounded-lg shadow-md">
-            <h3 className="text-lg font-bold">Hosting</h3>
-            <p>
+            <h3 className="text-3xl font-bold">Hosting</h3>
+            <p className="text-lg">
               Keep your website online, fast, and secure with our professional hosting services.
             </p>
             <ul className="mb-4 list-disc text-left">
