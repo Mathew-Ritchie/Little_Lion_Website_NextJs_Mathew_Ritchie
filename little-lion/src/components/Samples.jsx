@@ -4,10 +4,10 @@ export default function Samples() {
   return (
     <section
       id="our-samples"
-      className="min-h-screen bg-gray-700 w-full flex flex-col items-center justify-center overflow-hidden"
+      className="min-h-screen bg-gray-700 w-full flex flex-col items-center justify-center overflow-hidden py-20"
     >
       <div className="container text-white mx-auto px-4 text-center">
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-6">Our Samples</h1>
+        <h1 className="global-accent-text text-5xl md:text-6xl font-extrabold mb-6">Samples</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           Here are a few samples of our recent work. Each project is tailored to meet the unique
           needs of our clients, showcasing our commitment to quality and creativity.

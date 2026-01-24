@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full pt-20 sm:pt-35 overflow-hidden flex flex-col md:flex-row-reverse md:px-10 md:gap-5 items-center justify-start sm:justify-center bg-gray-800">
+    <section className="relative min-h-screen w-full py-20 sm:pt-35 overflow-hidden flex flex-col md:flex-row-reverse md:px-10 md:gap-5 items-center justify-start sm:justify-center bg-gray-800">
       {/* Content */}
       <div className="text-center md:text-left text-white">
         <h1 className="text-7xl font-extrabold mb-2">

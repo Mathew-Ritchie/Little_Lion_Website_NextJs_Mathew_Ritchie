@@ -24,16 +24,16 @@ body {
   z-index: -20; /* Place it behind the image and the content */
 }
 
-.about-section::before {
+/* .about-section::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #e5e7eb; /* Hex code for gray-200 */
-  z-index: -20; /* Places this color layer behind the image */
-}
+  background-color: #e5e7eb; /* Hex code for gray-200 
+  z-index: -20;
+} */
 
 .global-accent-text {
   color: #00cccc; /* Tailwind's blue-500 */

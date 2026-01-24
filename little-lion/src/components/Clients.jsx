@@ -6,10 +6,10 @@ export default function Clients() {
   return (
     <section
       id="our-clients"
-      className="min-h-screen bg-gray-600 w-full flex flex-col items-center justify-center  overflow-hidden"
+      className="sm:min-h-screen bg-gray-600 w-full flex flex-col items-center justify-start sm:justify-center py-20  overflow-hidden"
     >
       <div className="container text-white mx-auto px-4 text-center">
-        <h1 className="text-5xl  md:text-6xl font-extrabold mb-6">Our Clients</h1>
+        <h1 className="global-accent-text text-5xl  md:text-6xl font-extrabold mb-6">Our Clients</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           We Are a young flourishing business, and although out client list is small, we are proud
           of the work we have done for them. We can also devout more time to them and their dreams.

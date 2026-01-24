@@ -79,16 +79,33 @@ export default function NavModalHeader() {
           >
             Our Services
           </a>
+
+
           <a
             href="#our-process"
             className="p-2 rounded-md hover:bg-gray-700 transition duration-200  text-shadow-xs text-shadow-neutral-700"
           >
             Our Process
           </a>
+
+
+            <a
+            href="#our-samples"
+            className="p-2 rounded-md hover:bg-gray-700 transition duration-200  text-shadow-xs text-shadow-neutral-700"
+          >
+            Our Samples
+          </a>
+
+
+
+
+
+
           <a
             href="#our-clients"
             className="p-2 rounded-md hover:bg-gray-700 transition duration-200  text-shadow-xs text-shadow-neutral-700"
           >
+            
             Our Clients
           </a>
           <a
@@ -165,6 +182,12 @@ export default function NavModalHeader() {
             >
               Our Process
             </a>
+            <a
+            href="#our-samples"
+            className="p-2 rounded-md hover:bg-gray-700 transition duration-200  text-shadow-xs text-shadow-neutral-700"
+          >
+            Our Samples
+          </a>
             <a
               href="#our-clients"
               className="block p-2 hover:bg-gray-700 transition duration-200"
