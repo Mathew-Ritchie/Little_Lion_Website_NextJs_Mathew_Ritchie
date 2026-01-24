@@ -10,33 +10,20 @@ export default function OurServices() {
     >
       {/* Background Image Layer */}
       <div
-        className="absolute inset-0 bg-contain bg-no-repeat -z-10" // Use absolute inset-0 for positioning within the section
+        className="absolute inset-0  bg-no-repeat -z-10 bg-right md:bg-bottom-right bg-fixed bg-size-[100%] md:bg-size-[70%]"
         style={{
           backgroundImage: `url("/images/packages.png")`,
-          backgroundPosition: "bottom right",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "60%",
-          backgroundAttachment: "fixed", // Adjust size as needed
-          // backgroundSize: 'contain', // 'contain' ensures the whole image fits without cropping
-          // You might want to adjust this or use '50%' as before,
-          // depending on how large you want the packages image to appear.
-          // '50%' would make it half the width/height of the section.
-          // backgroundAttachment: 'fixed', // If this component *itself* needs to scroll over a truly fixed background,
-          // you'd use this. But if the background is part of THIS section, 'absolute' is fine.
         }}
       ></div>
 
       {/* Content Layer */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">Our Services</h1>
-        {/* <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-          Choose from our range of packages tailored to meet your needs.
-        </p> */}
       </div>
       <div className="mb-12">
         {" "}
         {/* Added margin-bottom to ensure content isn't hidden */}
-        <div className="container mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-8 text-center justify-items-center">
+        <div className="container mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-4 text-center justify-items-center">
           {/* Package 1 */}
           <div className="bg-white/90 p-6 px-8 rounded-lg shadow-md">
             <h3 className="text-lg font-bold">Website development</h3>

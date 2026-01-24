@@ -71,57 +71,6 @@ const processSteps = [
               <p>{step.description}</p>
             </div>
           ))}
-          {/* <div className="bg-white/10 p-6 rounded-lg shadow-xl shadow-white/20 text-gray-100">
-            <Image src="/images/icons/helpdesk.gif" alt="Consultation Icon" className="h-16 w-16 mx-auto" width={300} height={300} />
-            <h3 className="text-lg font-bold mb-4">1. Consultation</h3>
-            <p>
-              We start by understanding your business, goals, and target audience. This helps us
-              tailor our services to your specific needs. This is a chance for you to tell us what 
-              you would like from your website.
-            </p>
-          </div>
-          <div className="bg-white/10 p-6 rounded-lg shadow-xl shadow-white/20 text-gray-100">
-            <Image src="/images/icons/strategy.gif" alt="Planning Icon" className=" h-16 w-16 mx-auto"  width={300} height={300}  />
-            <h3 className="text-lg font-bold mb-4">2. Planning</h3>
-            <p>
-              We create a detailed plan outlining the project scope, timeline, and deliverables.
-              This ensures transparency and sets clear expectations. We also gather any content or
-              materials needed for the website during this phase.
-            </p>
-          </div>
-          <div className="bg-white/10 p-6 rounded-lg shadow-xl shadow-white/20 text-gray-100">
-            <Image src="/images/icons/software.gif" alt="Development Icon" className=" h-16 w-16 mx-auto" width={300} height={300}/>
-            <h3 className="text-lg font-bold mb-4">3. Design & Development</h3>
-            <p>
-              We design and develop your website, focusing on user experience, aesthetics,
-              and functionality. We keep you involved throughout the process to ensure alignment
-              with your vision.
-            </p>
-          </div>
-          <div className="bg-white/10 p-6 rounded-lg shadow-xl shadow-white/20 text-gray-100">
-            <Image src="/images/icons/test.gif" alt="Testing Icon" className=" h-16 w-16 mx-auto" width={300} height={300} />
-            <h3 className="text-lg font-bold mb-4">4. Review & Testing</h3>
-            <p>
-              Before launch, we conduct thorough testing to ensure your website is fully functional,
-              responsive, and optimized for performance across all devices and browsers. You as the 
-              client will get a chance to review the site and request any final changes.
-            </p>
-          </div>
-          <div className="bg-white/10 p-6 rounded-lg shadow-xl shadow-white/20 text-gray-100">
-            <Image src="/images/icons/rocket.gif" alt="Launch Icon" className="h-16 w-16 mx-auto" width={300} height={300} />
-            <h3 className="text-lg font-bold mb-4">5. Launch</h3>
-            <p>
-              Once everything is approved, we launch your website and ensure a smooth transition. Once your site is live, we make sure Google can find it!
-            </p>
-          </div>
-          <div className="bg-white/10 p-6 rounded-lg shadow-xl shadow-white/20 text-gray-100">
-            <Image src="/images/icons/support.gif" alt="Support Icon" className=" h-16 w-16 mx-auto" width={300} height={300} />
-            <h3 className="text-lg font-bold mb-4">6. Ongoing Support</h3>
-            <p>
-              We offer ongoing support and maintenance to keep your website updated, secure, and
-              performing at its best. We&apos;re here to help as your business grows and evolves.
-            </p>
-          </div> */}
         </div>
       </div>
     </section>
