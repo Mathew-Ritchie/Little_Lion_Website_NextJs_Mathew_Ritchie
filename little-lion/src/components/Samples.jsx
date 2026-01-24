@@ -25,7 +25,7 @@ export default function Samples() {
             />
             <h3 className="text-lg font-bold mb-2">E-commerce Website</h3>
             <p>
-              A one page website that is perfect for a small restaurant. offers large components to showcase you menu and mant ways for users to make contact.
+              A one page website that is perfect for a small restaurant. offers large components to showcase your menu and ways for users to make contact.
             </p>
           </div>
           </a>

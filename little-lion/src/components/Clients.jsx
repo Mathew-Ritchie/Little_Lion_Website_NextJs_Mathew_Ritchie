@@ -11,8 +11,8 @@ export default function Clients() {
       <div className="container text-white mx-auto px-4 text-center">
         <h1 className="global-accent-text text-5xl  md:text-6xl font-extrabold mb-6">Our Clients</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-          We Are a young flourishing business, and although out client list is small, we are proud
-          of the work we have done for them. We can also devout more time to them and their dreams.
+          We Are a young flourishing business, and although our client list is small, we are proud
+          of the work we have done for them. We can also devote more time to them and their dreams.
         </p>
         <div className="flex justify-center items-center mt-8">
           <a href="https://www.maichatron.co.za" target="_blank" rel="noopener noreferrer">
