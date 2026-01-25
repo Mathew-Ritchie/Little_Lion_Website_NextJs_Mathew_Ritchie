@@ -61,7 +61,7 @@ const services = [
         {/* Added margin-bottom to ensure content isn't hidden */}
         <div className="container mx-auto px-1 grid grid-cols-1 md:grid-cols-3 gap-4 text-center justify-items-center">
           {services && services.map((items , index) => (
-            <div key={index} className="bg-white/90 p-6 px-5 rounded-lg shadow-md text-black flex flex-col justify-center items-center">
+            <div key={index} className="bg-white/90 p-6 px-5 rounded-lg shadow-md text-black flex flex-col justify-start items-center">
                 <h3 className="text-3xl font-bold pb-2">{items.title}</h3>
                 <hr className="mb-2 w-5/6"></hr>
                 <p className="text-xl text-black font-bold pb-2">

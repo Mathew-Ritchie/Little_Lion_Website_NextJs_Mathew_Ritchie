@@ -65,10 +65,10 @@ const processSteps = [
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           {processSteps.map((step, index) => (
-            <div key={index} className="bg-white/10 p-6 rounded-lg shadow-xl shadow-white/20 text-gray-100">
+            <div key={index} className="bg-white/10 p-4 rounded-lg shadow-xl shadow-white/20 text-gray-100">
               <Image src={step.icon} alt={`${step.title} Icon`} className="h-16 w-16 mx-auto" width={300} height={300} />
-              <h3 className="text-lg font-bold mb-4">{step.title}</h3>
-              <p>{step.description}</p>
+              <h2 className="text-2xl font-bold mb-4">{step.title}</h2>
+              <p className="text-lg">{step.description}</p>
             </div>
           ))}
         </div>

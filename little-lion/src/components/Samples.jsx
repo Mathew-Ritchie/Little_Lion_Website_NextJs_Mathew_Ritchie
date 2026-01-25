@@ -30,8 +30,8 @@ export default function Samples() {
               width={1455}
               height={899}
             />
-            <h3 className="text-lg font-bold mb-2">E-commerce Website</h3>
-            <p>
+            <h3 className="text-2xl font-bold mb-2">Single page Website</h3>
+            <p className="text-lg">
               A one page website that is perfect for a small restaurant. offers large components to showcase your menu and ways for users to make contact.
             </p>
           </div>
@@ -46,8 +46,8 @@ export default function Samples() {
               width={1455}
               height={899}
             />
-            <h3 className="text-lg font-bold mb-2">Portfolio Website</h3>
-            <p>
+            <h3 className="text-2xl font-bold mb-2">Portfolio Website</h3>
+            <p className="text-lg">
               A multi-page website ideal for a boutique hotel, with pages for room types and facilities. The site has many contact options for users and links to external booking sites.
             </p>
           </div>
