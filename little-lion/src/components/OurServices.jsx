@@ -6,7 +6,7 @@ export default function OurServices() {
   return (
     <section
       id="our-packages"
-      className="relative min-h-screen w-full flex flex-col items-center justify-center  overflow-hidden pt-20"
+      className="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden pt-20 bg-gray-800/60"
     >
       {/* Background Image Layer */}
       <div
@@ -18,7 +18,7 @@ export default function OurServices() {
 
       {/* Content Layer */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-6">Our Services</h1>
+        <h1 className="global-accent-text text-shadow-lg text-shadow-black/20 text-6xl md:text-6xl font-extrabold mb-6">Our Services</h1>
       </div>
       <div className="mb-12">
         {" "}
