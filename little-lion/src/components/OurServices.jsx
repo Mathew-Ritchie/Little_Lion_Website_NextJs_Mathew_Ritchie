@@ -59,7 +59,7 @@ const services = [
       <div className="mb-12">
         {" "}
         {/* Added margin-bottom to ensure content isn't hidden */}
-        <div className="container mx-auto px-2 grid grid-cols-1 md:grid-cols-3 gap-4 text-center justify-items-center">
+        <div className="container mx-auto px-1 grid grid-cols-1 md:grid-cols-3 gap-4 text-center justify-items-center">
           {services && services.map((items , index) => (
             <div key={index} className="bg-white/90 p-6 px-5 rounded-lg shadow-md text-black flex flex-col justify-center items-center">
                 <h3 className="text-3xl font-bold pb-2">{items.title}</h3>
@@ -69,12 +69,12 @@ const services = [
             </p>
              <ul className="mb-4 text-lg list-disc pl-2">
               {items.listItem.map((listItem, index) => (
-                <li key={index} className="text-left" >
-                  <strong>{listItem.strong}:</strong>{listItem.listItem}
+                <li key={index} className="text-left text-lg font-medium" >
+                  <strong className="font-bold pr-1.5 text-xl">{listItem.strong}:</strong>{listItem.listItem}
                 </li>
               ))}
               </ul>
-              {items.quote && (<p>{items.quote}</p>)}
+              {items.quote && (<p className="text-xl italic">{items.quote}</p>)}
             </div>
           ))}
         </div>
