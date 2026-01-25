@@ -1,6 +1,13 @@
 import Image from "next/image";
 
 export default function Samples() {
+
+
+
+
+
+
+  
   return (
     <section
       id="our-samples"
