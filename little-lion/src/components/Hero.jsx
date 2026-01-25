@@ -19,7 +19,7 @@ export default function Hero() {
       </div>
       <div className="flex flex-col items-center gap-2"> 
           <Image
-            src="/images/little-lion-logo.png"
+            src="/images/little-lion-logo-md1.png"
             alt="Little Lion Logo of a Shih Tzu Dog"
             className="w-5/6 md:w-full lg:w-120 h-auto"
             width={1536}
