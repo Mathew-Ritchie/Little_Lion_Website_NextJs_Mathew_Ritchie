@@ -10,7 +10,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: "width" 100;
 }
 
 .hero-section::before {

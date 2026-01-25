@@ -25,9 +25,9 @@ export default function OurServices() {
         {/* Added margin-bottom to ensure content isn't hidden */}
         <div className="container mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-4 text-center justify-items-center">
           {/* Package 1 */}
-          <div className="bg-white/90 p-6 px-5 rounded-lg shadow-md">
+          <div className="bg-white/90 p-6 px-5 rounded-lg shadow-md text-black">
             <h3 className="text-3xl font-bold">Website development</h3>
-            <p className="text-lg">
+            <p className="text-lg text-black font-bold">
               Bring your business online with a professional, modern website tailored to your needs.
               We create sites that look great, perform smoothly, and help you connect with clients.
             </p>
