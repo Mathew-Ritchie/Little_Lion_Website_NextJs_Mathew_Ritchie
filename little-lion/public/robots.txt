@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://little-lion.co.za/sitemap.xml
+Sitemap: https://www.little-lion.co.za/sitemap.xml
